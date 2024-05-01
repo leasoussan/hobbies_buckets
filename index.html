@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hobbies Todo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+    <link rel="manifest" href="../assets/site.webmanifest" />
+    <meta name="viewport" content="width=device-width" initial-scale="1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hobbies Bucket</h1>
+      <img src="assets/bucket.jpeg">
+      <div class="field">
+        <input
+          type="text"
+          id="input-field"
+          placeholder="What I would love to do "
+        />
+        <button id="add-button">Add </button>
+      </div>
+      <div>
+        <h2>Hobbies Todo</h2>
+        <div class="hobbies_list"></div>
+      </div>
+    </div>
+    <script src="functions.js" type="module"></script>
+    <script src="firebase.js" type="module"></script>
+  </body>
+</html>
